@@ -56,6 +56,10 @@ public class Admin implements Serializable {
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
+	public Admin() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 	
