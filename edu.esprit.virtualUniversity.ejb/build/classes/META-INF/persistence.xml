@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="universityPU">
+		<jta-data-source>java:/universityDS</jta-data-source>
+		<class>edu.esprit.virtualUniversity.domain.Student</class>
+		<class>edu.esprit.virtualUniversity.domain.Teacher</class>
+		<class>edu.esprit.virtualUniversity.domain.Group</class>
+		<class>edu.esprit.virtualUniversity.domain.MarkPK</class>
+		<class>edu.esprit.virtualUniversity.domain.Subject</class>
+		<class>edu.esprit.virtualUniversity.domain.Chapter</class>
+		<class>edu.esprit.virtualUniversity.domain.Assignment</class>
+		<class>edu.esprit.virtualUniversity.domain.Archive</class>
+		<class>edu.esprit.virtualUniversity.domain.ArchivePK</class>
+		<class>edu.esprit.virtualUniversity.domain.Mark</class>
+		<class>edu.esprit.virtualUniversity.domain.Exam</class>
+		<class>edu.esprit.virtualUniversity.domain.Course</class>
+		<class>edu.esprit.virtualUniversity.domain.Admin</class>
+	
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
+</persistence>
