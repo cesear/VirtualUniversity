@@ -11,7 +11,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import com.sun.org.glassfish.gmbal.DescriptorFields;
+
 @Table(name="t_teacher")
 @Entity
 public class Teacher implements Serializable {

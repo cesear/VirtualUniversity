@@ -1,13 +1,13 @@
 package edu.esprit.virtualUniversity.domain;
 
-//test
+//test Kais
 
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.sun.org.glassfish.gmbal.DescriptorFields;
+
 @Table(name="t_admin")
 @Entity
 public class Admin implements Serializable {

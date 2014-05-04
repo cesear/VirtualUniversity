@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.sun.org.glassfish.gmbal.DescriptorFields;
+
 @Table(name="t_student")
 @Entity
 public class Student implements Serializable{
